@@ -6,6 +6,9 @@
 
 <body>
 <a href="{% url 'blog.views.post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+<p>
+<p>
+
 {%for post in posts%}
 <div>
 <p align = right >publicado:{{post.published_date}}</p>
